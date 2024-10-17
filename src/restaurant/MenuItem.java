@@ -5,9 +5,10 @@ public class MenuItem {
     //changed price to priceInDollars
     private double priceInDollars;
 
-    public MenuItem(String name, double price) {
+    public MenuItem(String name, double priceInDollars) {
         this.name = name;
-        this.priceInDollars = price;
+        //changed price to priceInDollars
+        this.priceInDollars = priceInDollars;
     }
 
     public String getName() {
